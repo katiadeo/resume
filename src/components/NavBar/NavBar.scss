@@ -1,0 +1,56 @@
+@import '../../assets/css/constants.scss';
+
+.navContainer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+
+	.navList {
+		list-style-type: none;
+		padding: 0;
+		width: 100%;
+		display: flex;
+		gap: 1rem;
+		flex-direction: column;
+
+		.navLink {
+			font-size: 22px;
+			height: 35px;
+			display: flex;
+			align-items: center;
+			cursor: pointer;
+			transition: all 200ms ease-in-out;
+			padding: 1em 2em;
+
+			.linkBtn {
+				color: white;
+				position: relative;
+				letter-spacing: 0.2em;
+				min-height: 50px;
+				padding: 0 20px;
+				border-radius: 2em;
+
+				&:before {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 0;
+					display: block;
+					border-radius: 2em;
+					background: rgba(#1f4e43c4, 0.5);
+					width: 10px;
+					height: 50px;
+					transition: all 0.5s ease;
+					z-index: -1;
+				}
+
+				&:hover {
+					&:before {
+						width: 100%;
+						background: rgba(#4a9b87c4, 0.6);
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,63 @@
+@import '../../assets/css/constants.scss';
+
+.contactsSection {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	.contacts {
+		display: flex;
+		flex-direction: column;
+		gap: 2em;
+		padding: 30px 15px;
+		margin: 0 auto;
+		list-style-type: none;
+
+		.contactsLink {
+			&:hover {
+				text-decoration: none;
+			}
+
+			.btnCommon {
+				border-radius: 20px;
+			}
+
+			.linkedinBtn {
+				background-color: rgba(0, 128, 122, 0.692);
+
+				&:hover,
+				&:focus {
+					background-color: rgba(3, 94, 89, 0.692);
+				}
+			}
+
+			.githubBtn {
+				background-color: rgba(0, 98, 128, 0.692);
+
+				&:hover,
+				&:focus {
+					background-color: rgba(0, 73, 95, 0.692);
+				}
+			}
+
+			.phoneBtn {
+				background-color: rgba(80, 133, 80, 0.884);
+
+				&:hover,
+				&:focus {
+					background-color: rgba(69, 114, 69, 0.884);
+				}
+			}
+
+			.emailBtn {
+				background-color: rgba(252, 250, 142, 0.884);
+				color: black;
+
+				&:hover,
+				&:focus {
+					background-color: rgba(218, 216, 122, 0.884);
+				}
+			}
+		}
+	}
+}
