@@ -51,9 +51,9 @@ const ProjectsSlider = ({ slides }) => {
 										</Link>
 
 										<motion.div
-											initial={{ y: 1000 }}
+											initial={{ y: 1500 }}
 											animate={{ y: 0 }}
-											transition={{ delay: 0.3, stiffness: 120 }}
+											transition={{ delay: 0.3 }}
 											className="projectTools"
 										>
 											{project.tools}

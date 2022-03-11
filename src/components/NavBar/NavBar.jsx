@@ -68,9 +68,24 @@ const NavBar = ({ isOpen }) => {
 						<Button className="linkBtn">Projects</Button>
 					</NavLink>
 				</motion.li>
+
+				<motion.li
+					className="navLink"
+					initial={false}
+					animate={isOpen ? 'show' : 'hide'}
+					variants={{
+						show: { ...variants.show, transition: { delay: 0.9 }, duration: 0.2 },
+						hide: { ...variants.hide, transition: { delay: 0.25 }, duration: 0.05 },
+					}}
+				>
+					<NavLink to="/resume">
+						<Button className="linkBtn">Resume</Button>
+					</NavLink>
+				</motion.li>
 			</ul>
 		</nav>
 	);
 };
 
 export default NavBar;
+// TODO: update animations
