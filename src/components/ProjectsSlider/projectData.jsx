@@ -18,7 +18,7 @@ export const projectsData = [
 		headline: 'Calculator with ReduxToolkit',
 		tools: '#react',
 		src: Calculator,
-		// link: 'https://rolling-scopes-school.github.io/katiadeo-JSFEPRESCHOOL/js-clock/',
+		link: 'https://katiadeo.github.io/calculator/',
 	},
 	{
 		id: 2,

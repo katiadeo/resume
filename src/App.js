@@ -16,7 +16,7 @@ const App = () => {
 				<HamburgerMenu />
 				<main className="container">
 					<Routes>
-						<Route path="/" element={<Home />} />
+						<Route exact path="/" element={<Home />} />
 						<Route path="/contacts" element={<Contacts />} />
 						<Route path="/projects" element={<Projects />} />
 						<Route path="/skills" element={<Skills />} />
