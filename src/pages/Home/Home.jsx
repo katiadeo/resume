@@ -23,10 +23,10 @@ const Home = () => {
 				transition={{ delay: 0.5 }}
 			>
 				<div className="profileSummary">
-					<div>
+					<p>
 						An enthusiastic and rather efficient Developer seeking for an entry position
 						in a rapidly evolving community
-					</div>
+					</p>
 					<h3 className="profileName">Tatiana</h3>
 				</div>
 				<img src={ProfilePhoto} alt="profile" className="profilePhoto" />
