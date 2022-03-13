@@ -9,7 +9,7 @@ const variants = {
 	hide: { transform: 'translteX(1em)', opacity: 0 },
 };
 
-const NavBar = ({ isOpen }) => {
+const NavBar = ({ isOpen, toggle }) => {
 	return (
 		<nav className="navContainer">
 			<ul className="navList">
@@ -23,10 +23,11 @@ const NavBar = ({ isOpen }) => {
 					}}
 				>
 					<NavLink to="/">
-						<Button className="linkBtn">About me</Button>
+						<Button className="linkBtn" onClick={toggle}>
+							About me
+						</Button>
 					</NavLink>
 				</motion.li>
-
 				<motion.li
 					className="navLink"
 					initial={false}
@@ -37,10 +38,11 @@ const NavBar = ({ isOpen }) => {
 					}}
 				>
 					<NavLink to="/contacts">
-						<Button className="linkBtn">Contacts</Button>
+						<Button className="linkBtn" onClick={toggle}>
+							Contacts
+						</Button>
 					</NavLink>
 				</motion.li>
-
 				<motion.li
 					className="navLink"
 					initial={false}
@@ -51,10 +53,11 @@ const NavBar = ({ isOpen }) => {
 					}}
 				>
 					<NavLink to="/skills">
-						<Button className="linkBtn">Skills</Button>
+						<Button className="linkBtn" onClick={toggle}>
+							Skills
+						</Button>
 					</NavLink>
 				</motion.li>
-
 				<motion.li
 					className="navLink"
 					initial={false}
@@ -65,10 +68,11 @@ const NavBar = ({ isOpen }) => {
 					}}
 				>
 					<NavLink to="/projects">
-						<Button className="linkBtn">Projects</Button>
+						<Button className="linkBtn" onClick={toggle}>
+							Projects
+						</Button>
 					</NavLink>
 				</motion.li>
-
 				<motion.li
 					className="navLink"
 					initial={false}
@@ -79,7 +83,9 @@ const NavBar = ({ isOpen }) => {
 					}}
 				>
 					<NavLink to="/resume">
-						<Button className="linkBtn">Resume</Button>
+						<Button className="linkBtn" onClick={toggle}>
+							Resume
+						</Button>
 					</NavLink>
 				</motion.li>
 			</ul>

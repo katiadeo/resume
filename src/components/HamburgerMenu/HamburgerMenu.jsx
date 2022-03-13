@@ -38,7 +38,7 @@ const HamburgerMenu = () => {
 				animate={isOpen ? 'open' : 'closed'}
 				variants={menuVariants}
 			>
-				<NavBar isOpen={isOpen} />
+				<NavBar isOpen={isOpen} toggle={toggleMenu} />
 			</motion.div>
 		</header>
 	);
