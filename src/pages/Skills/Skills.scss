@@ -1,5 +1,119 @@
-@keyframes progress {
-	0% {
-		stroke-dasharray: 0 100;
+.skillsContainer {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5em;
+}
+
+.skill {
+	width: 100px;
+	height: 100px;
+	position: relative;
+
+	.outer {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		padding: 5px;
+		box-shadow: 3px 3px 10px -1px rgba(255, 255, 255, 0.1),
+			-3px -3px 10px -1px rgba(0, 0, 0, 0.7);
+
+		.inner {
+			width: 90px;
+			height: 90px;
+			border-radius: 50%;
+			box-shadow: inset 4px 4px 6px -1px rgba(255, 255, 255, 0.2),
+				inset -3px -3px 6px -1px rgba(0, 0, 0, 0.7),
+				-0.5px -0.5px 0px rgba(255, 255, 255, 0.5),
+				0.5px 0.5px 0px rgba(255, 255, 255, 0.15),
+				0px 12px 10px -10px rgba(255, 255, 255, 0.05);
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			.skillLogo {
+				color: white;
+				width: 40%;
+			}
+		}
+	}
+
+	svg {
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		circle {
+			fill: none;
+			stroke-dasharray: 472;
+			stroke-dashoffset: 472;
+			stroke-width: 7px;
+		}
+
+		.circleReact {
+			stroke: url(#GradientColorReact);
+			animation: react 500ms linear forwards;
+		}
+
+		.circleJS {
+			stroke: url(#GradientColorJS);
+			animation: js 500ms linear forwards;
+		}
+
+		.circleHtml {
+			stroke: url(#GradientColorHtml);
+			animation: html 500ms linear forwards;
+		}
+
+		.circleCss {
+			stroke: url(#GradientColorCss);
+			animation: css 500ms linear forwards;
+		}
+
+		.circleScss {
+			stroke: url(#GradientColorScss);
+			animation: scss 500ms linear forwards;
+		}
+
+		.circleTS {
+			stroke: url(#GradientColorTS);
+			animation: ts 500ms linear forwards;
+		}
+	}
+}
+
+@keyframes react {
+	100% {
+		stroke-dashoffset: 200;
+	}
+}
+
+@keyframes js {
+	100% {
+		stroke-dashoffset: 150;
+	}
+}
+
+@keyframes html {
+	100% {
+		stroke-dashoffset: 90;
+	}
+}
+
+@keyframes css {
+	100% {
+		stroke-dashoffset: 90;
+	}
+}
+
+@keyframes scss {
+	100% {
+		stroke-dashoffset: 100;
+	}
+}
+
+@keyframes ts {
+	100% {
+		stroke-dashoffset: 240;
 	}
 }
