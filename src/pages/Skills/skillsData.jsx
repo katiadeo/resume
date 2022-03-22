@@ -15,7 +15,7 @@ export const skillsData = [
 		class: 'circleReact',
 		startColor: '#e91e63',
 		stopColor: '#673ab7',
-		delay: 0.1,
+		delay: 2.1,
 	},
 	{
 		id: 1,
