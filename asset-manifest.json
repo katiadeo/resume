@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.758119e0.css",
-    "main.js": "/resume/static/js/main.08aab153.js",
+    "main.css": "/resume/static/css/main.3d2bd169.css",
+    "main.js": "/resume/static/js/main.f55b3c37.js",
     "static/media/player.jpg": "/resume/static/media/player.1712bb18ce98ded0e37f.jpg",
     "static/media/pokemongo.jpg": "/resume/static/media/pokemongo.e72d7409939e52ab5ce3.jpg",
     "static/media/drumkit.jpg": "/resume/static/media/drumkit.f4652eaef6a7969371c6.jpg",
     "static/media/clock.jpg": "/resume/static/media/clock.92ceec9c7cc87dd01ea4.jpg",
     "static/media/calculator.jpg": "/resume/static/media/calculator.5b60c66185b80f4e0fed.jpg",
+    "static/media/datatable.jpg": "/resume/static/media/datatable.dfc0c2a011573dabd4fd.jpg",
     "static/media/profile.jpg": "/resume/static/media/profile.083e6ad38a804387e007.jpg",
     "static/media/piano.jpg": "/resume/static/media/piano.2722d848350c401cfbc8.jpg",
     "static/media/react.png": "/resume/static/media/react.ac9979693620f0a96231.png",
@@ -16,11 +17,11 @@
     "static/media/css-3.png": "/resume/static/media/css-3.463e319bad8e0edf1ef7.png",
     "static/media/typescript.png": "/resume/static/media/typescript.af108db04a54d784da9b.png",
     "index.html": "/resume/index.html",
-    "main.758119e0.css.map": "/resume/static/css/main.758119e0.css.map",
-    "main.08aab153.js.map": "/resume/static/js/main.08aab153.js.map"
+    "main.3d2bd169.css.map": "/resume/static/css/main.3d2bd169.css.map",
+    "main.f55b3c37.js.map": "/resume/static/js/main.f55b3c37.js.map"
   },
   "entrypoints": [
-    "static/css/main.758119e0.css",
-    "static/js/main.08aab153.js"
+    "static/css/main.3d2bd169.css",
+    "static/js/main.f55b3c37.js"
   ]
 }
