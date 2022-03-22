@@ -8,6 +8,42 @@
 	width: 100px;
 	height: 100px;
 	position: relative;
+	cursor: pointer;
+
+	&:hover .circleReact {
+		stroke: url(#GradientColorReact);
+		animation: react 500ms linear forwards;
+	}
+
+	&:hover .circleJS {
+		stroke: url(#GradientColorJS);
+		animation: js 500ms linear forwards;
+	}
+
+	&:hover .circleHtml {
+		stroke: url(#GradientColorHtml);
+		animation: html 500ms linear forwards;
+	}
+
+	&:hover .circleCss {
+		stroke: url(#GradientColorCss);
+		animation: css 500ms linear forwards;
+	}
+
+	&:hover .circleScss {
+		stroke: url(#GradientColorScss);
+		animation: scss 500ms linear forwards;
+	}
+
+	&:hover .circleTS {
+		stroke: url(#GradientColorTS);
+		animation: ts 500ms linear forwards;
+	}
+
+	&:hover .circleVue {
+		stroke: url(#GradientColorVue);
+		animation: vue 500ms linear forwards;
+	}
 
 	.outer {
 		width: 100px;
@@ -49,36 +85,6 @@
 			stroke-dashoffset: 472;
 			stroke-width: 7px;
 		}
-
-		.circleReact {
-			stroke: url(#GradientColorReact);
-			animation: react 500ms linear forwards;
-		}
-
-		.circleJS {
-			stroke: url(#GradientColorJS);
-			animation: js 500ms linear forwards;
-		}
-
-		.circleHtml {
-			stroke: url(#GradientColorHtml);
-			animation: html 500ms linear forwards;
-		}
-
-		.circleCss {
-			stroke: url(#GradientColorCss);
-			animation: css 500ms linear forwards;
-		}
-
-		.circleScss {
-			stroke: url(#GradientColorScss);
-			animation: scss 500ms linear forwards;
-		}
-
-		.circleTS {
-			stroke: url(#GradientColorTS);
-			animation: ts 500ms linear forwards;
-		}
 	}
 }
 
@@ -115,5 +121,11 @@
 @keyframes ts {
 	100% {
 		stroke-dashoffset: 240;
+	}
+}
+
+@keyframes vue {
+	100% {
+		stroke-dashoffset: 350;
 	}
 }

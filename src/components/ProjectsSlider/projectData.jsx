@@ -4,6 +4,7 @@ import Piano from '../../assets/photos/piano.jpg';
 import Clock from '../../assets/photos/clock.jpg';
 import Drumkit from '../../assets/photos/drumkit.jpg';
 import Player from '../../assets/photos/player.jpg';
+import Datatable from '../../assets/photos/datatable.jpg';
 
 export const projectsData = [
 	{
@@ -47,5 +48,12 @@ export const projectsData = [
 		tools: '#javasript',
 		src: Player,
 		link: 'https://rolling-scopes-school.github.io/katiadeo-JSFEPRESCHOOL/custom-video-player/',
+	},
+	{
+		id: 6,
+		headline: 'Small DataTable with Vue',
+		tools: ['#vue3', ' #naive-ui', ' #localStorage'],
+		src: Datatable,
+		link: 'https://katiadeo.github.io/vue-test/',
 	},
 ];
