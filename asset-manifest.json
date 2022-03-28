@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.3d2bd169.css",
-    "main.js": "/resume/static/js/main.0e7afdd9.js",
+    "main.css": "/resume/static/css/main.dd25a991.css",
+    "main.js": "/resume/static/js/main.0122b1a1.js",
     "static/media/player.jpg": "/resume/static/media/player.1712bb18ce98ded0e37f.jpg",
     "static/media/pokemongo.jpg": "/resume/static/media/pokemongo.e72d7409939e52ab5ce3.jpg",
     "static/media/drumkit.jpg": "/resume/static/media/drumkit.f4652eaef6a7969371c6.jpg",
@@ -9,6 +9,7 @@
     "static/media/calculator.jpg": "/resume/static/media/calculator.5b60c66185b80f4e0fed.jpg",
     "static/media/datatable.jpg": "/resume/static/media/datatable.dfc0c2a011573dabd4fd.jpg",
     "static/media/profile.jpg": "/resume/static/media/profile.083e6ad38a804387e007.jpg",
+    "static/media/creditcard.jpg": "/resume/static/media/creditcard.c79ba9da3bef6fe31ec9.jpg",
     "static/media/piano.jpg": "/resume/static/media/piano.2722d848350c401cfbc8.jpg",
     "static/media/react.png": "/resume/static/media/react.ac9979693620f0a96231.png",
     "static/media/sass.png": "/resume/static/media/sass.c5da83bb9ff45b84e0e7.png",
@@ -17,11 +18,11 @@
     "static/media/css-3.png": "/resume/static/media/css-3.463e319bad8e0edf1ef7.png",
     "static/media/typescript.png": "/resume/static/media/typescript.af108db04a54d784da9b.png",
     "index.html": "/resume/index.html",
-    "main.3d2bd169.css.map": "/resume/static/css/main.3d2bd169.css.map",
-    "main.0e7afdd9.js.map": "/resume/static/js/main.0e7afdd9.js.map"
+    "main.dd25a991.css.map": "/resume/static/css/main.dd25a991.css.map",
+    "main.0122b1a1.js.map": "/resume/static/js/main.0122b1a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d2bd169.css",
-    "static/js/main.0e7afdd9.js"
+    "static/css/main.dd25a991.css",
+    "static/js/main.0122b1a1.js"
   ]
 }
