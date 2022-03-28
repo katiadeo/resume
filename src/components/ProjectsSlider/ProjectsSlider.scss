@@ -4,16 +4,20 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
 
 	.shape {
 		box-shadow: inset 0px 0px 200px rgba(255, 255, 255, 0.1);
 		width: 600px;
 		max-width: 100%;
-		height: 60vh;
+		height: 500px;
 		position: absolute;
+		top: -50px;
 
 		@include md {
-			width: 400px;
+			width: 500px;
+			height: 480px;
+			top: -40px;
 		}
 	}
 
@@ -28,7 +32,6 @@
 			height: 400px;
 			object-fit: cover;
 			border-radius: 1em;
-			opacity: 0.5;
 		}
 
 		.projectName {
@@ -38,6 +41,7 @@
 			right: 0;
 			font-weight: 600;
 			font-size: 2rem;
+			text-align: right;
 			background-color: rgba(194, 199, 199, 0.4);
 
 			@include md {
@@ -48,7 +52,7 @@
 		.demoBtn {
 			position: absolute;
 			top: 80%;
-			right: 25%;
+			right: 5%;
 			background-color: rgb(255, 238, 140);
 			color: black;
 			padding: 0.5em 2.5em;
@@ -61,6 +65,8 @@
 			font-weight: 600;
 			font-size: 1.2rem;
 			color: rgb(255, 238, 140);
+			display: flex;
+			flex-direction: column;
 		}
 	}
 

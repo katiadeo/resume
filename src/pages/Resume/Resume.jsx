@@ -6,7 +6,7 @@ import { saveAs } from 'file-saver';
 
 const Resume = () => {
 	const saveFile = () => {
-		saveAs('./CV_Tatiana_Mukhortova.pdf', 'CV_Tatiana_Mukhortova.pdf.pdf');
+		saveAs('./CV_Tatiana_Mukhortova.pdf', 'CV_Tatiana_Mukhortova.pdf');
 	};
 
 	return (
