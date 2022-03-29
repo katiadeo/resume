@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.dd25a991.css",
-    "main.js": "/resume/static/js/main.0122b1a1.js",
+    "main.js": "/resume/static/js/main.fbd7931a.js",
     "static/media/player.jpg": "/resume/static/media/player.1712bb18ce98ded0e37f.jpg",
     "static/media/pokemongo.jpg": "/resume/static/media/pokemongo.e72d7409939e52ab5ce3.jpg",
     "static/media/drumkit.jpg": "/resume/static/media/drumkit.f4652eaef6a7969371c6.jpg",
@@ -19,10 +19,10 @@
     "static/media/typescript.png": "/resume/static/media/typescript.af108db04a54d784da9b.png",
     "index.html": "/resume/index.html",
     "main.dd25a991.css.map": "/resume/static/css/main.dd25a991.css.map",
-    "main.0122b1a1.js.map": "/resume/static/js/main.0122b1a1.js.map"
+    "main.fbd7931a.js.map": "/resume/static/js/main.fbd7931a.js.map"
   },
   "entrypoints": [
     "static/css/main.dd25a991.css",
-    "static/js/main.0122b1a1.js"
+    "static/js/main.fbd7931a.js"
   ]
 }
